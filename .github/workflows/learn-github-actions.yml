@@ -9,4 +9,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '14'
-      - run: bats -v
+      - uses: docker://alpine:3.8
